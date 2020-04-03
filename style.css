@@ -1,0 +1,96 @@
+/*####### SELECTORES ######*/
+
+/*Selector Universal es *  */
+* {
+    font-family: 'Times New Roman', Times, serif;
+}   
+/*Selector de Etiqueta seleciona elementos que necesite por su etiqueta*/
+h1{
+    background: rgb(8, 46, 83);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+a {
+    font-size: 15px;
+    color: rgb(9, 34, 114);
+    text-decoration: none;
+}
+footer a {
+    color: rgb(43, 36, 117);
+}
+
+/*Selector de Id*/
+#descripcion, #titulo{
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+#titulo{
+    background: rgb(202, 255, 252);
+    border: 2px dashed white;
+    color: rgb(22, 22, 22);
+}
+/*Selector de Clase*/
+.parrafo2{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.parrafo1, .parrafo3{
+    background-color: rgba(185, 214, 255, 0.397);
+    color: rgb(26, 26, 26);
+    padding: 10px;
+}
+.parrafo3{
+    background-color: rgb(241, 241, 241);
+}
+
+/*Selector de Atributo*/
+
+#usuario form{
+    border: 5px solid rgba(29, 29, 102, 0.692);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+ 
+}
+
+#usuario form *{
+    display: block;
+  
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="submit"]{
+    background: rgba(29, 29, 102, 0.692);
+    color:white;
+    padding: 12px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/*Selector hijo*/
+#menu > li > a{
+    font-size: 13px;
+    color: rgb(18, 18, 168);
+    text-decoration: none;
+}
+/*Prioridad*/
+#saludo h1{
+    background: rgb(20, 14, 26) !important;
+}
+
+h1{
+   background: rgb(88, 1, 160) !important;
+}
+
+
